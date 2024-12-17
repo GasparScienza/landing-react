@@ -12,12 +12,12 @@ const navbarLinks = [
   {
     id: 2,
     title: "Nosotros",
-    link: "/#",
+    link: "#nosotros",
   },
   {
     id: 3,
-    title: "Contacto",
-    link: "/#",
+    title: "Proyectos",
+    link: "#proyectos",
   },
 ];
 
