@@ -13,7 +13,7 @@ function Redes({clase}) {
     return (
         <>
             <ul className="flex sm:space-x-4 space-x-1">
-                <button className='text-3xl  hover:scale-125 hover:text-fuchsia-500 duration-300'
+                <button className='text-2xl  hover:scale-125 hover:text-fuchsia-500 duration-300'
                     onClick={toogleInstagram}
                 >
                     <i className="bi bi-instagram"></i>
@@ -21,7 +21,7 @@ function Redes({clase}) {
                 <a href="https://wa.me/+543534199746"
                     target="_blank"
                     rel="noopener refererrer"
-                    className={`text-3xl hover:scale-125 hover:text-fuchsia-500 duration-300`}
+                    className={`text-2xl hover:scale-125 hover:text-fuchsia-500 duration-300`}
                 >
                     <i className="bi bi-whatsapp"></i>
                 </a>

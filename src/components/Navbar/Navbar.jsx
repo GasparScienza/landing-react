@@ -30,12 +30,14 @@ function Navbar() {
 
   return (
     <nav className="fixed z-50 w-full p-5 px-10">
-      <div className="flex justify-between items-center sm:px-4 sm:py-3 px-4 py-3 bg-violet-100 bg-opacity-80 rounded-3xl z-50">
+      <div className="flex justify-between items-center sm:px-4 sm:py-3 px-4 py-3
+           bg-violet-100 bg-opacity-80 rounded-3xl z-50 h-[80px]" 
+           >
         <div>
           <img
             src={Logo}
             alt="Logo 3D Impresiones"
-            className="w-[50px] transition-transform hover:scale-110 transform inline-block duration-300"
+            className="w-[40px] transition-transform hover:scale-110 transform inline-block duration-300"
           />
         </div>
 
@@ -44,7 +46,7 @@ function Navbar() {
         </div>
         {/*Boton hamburguesa*/}
         <button onClick={toogleMenu} className="text-3xl md:hidden">
-          {isOpen ? <i class="bi bi-x-square"></i> : <i class="bi bi-list"></i>}
+          {isOpen ? <i className="bi bi-x-square"></i> : <i className="bi bi-list"></i>}
         </button>
 
 
@@ -54,7 +56,7 @@ function Navbar() {
             {navbarLinks.map((link) => (
               <li key={link.id}>
                 <a
-                  className="text-xl transition-transform hover:scale-125 hover:text-fuchsia-500 
+                  className="text-lg transition-transform hover:scale-125 hover:text-fuchsia-500 
                     transform inline-block duration-300"
                   href={link.link}
                 >
