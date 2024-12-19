@@ -28,7 +28,7 @@ function Redes({clase}) {
             </ul>
 
             <div className={`${clase} 
-                ${isOpenRed ? "opacity-100 visible transition-all duration-300" : "opacity-0 invisible transition-all duration-300"}`}
+                ${isOpenRed ? "opacity-100 visible transition-all duration-300" : "opacity-0 invisible top-96 transition-all duration-300"}`}
             >
                 <Instagram />
             </div>
